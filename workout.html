@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+</html>
+
+<body>
+    <div class="container">
+
+        <div class="navbar navbarGo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#workouts">Workouts</a></li>
+                    <li><a href="challenges.html">Challenges</a></li>
+                    <li><a href="news.html">News/Trends</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="login.html" id="login" onclick="openLogin()">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+        <header>
+            <div class="navheader" id="navheader">
+                <div class="left">Healthify</div>
+                <div class="right">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#workouts">Workouts</a></li>
+                        <li><a href="challenges.html">Challenges</a></li>
+                        <li><a href="news.html">News/Trends</a></li>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="login.html" id="login" onclick="openLogin()">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="mainSection">
+            <div class="section1 section-workout" >
+                <h2>Strength Training</h2>
+                <div class="videos">
+                    <div class="card-workout">
+                        <img class="title" src="./images/strength1.png" width="320px" height="200px" alt="Your Image">
+                        <div class="overlay">
+                            <p>Maximize your fitness in just 30 minutes with this dynamic full-body strength
+                                workout. </p>
+                            <button onclick="strength1()">Watch Video</button>
+                        </div>
+                        <p class="video-title">30 Minute Full Body Strength Workout </p>
+                    </div>
+                    <div class="card-workout">
+                        <img class="title" src="./images/strength2.png" alt="Your Image" width="320px" height="200px">
+                        <div class="overlay">
+                            <p> Full-body strength workout, designed to build strength, endurance, and definition
+                                across all
+                                major muscle groups.</p>
+                            <button onclick="strength2()">Watch Video</button>
+                        </div>
+                        <p class="video-title">Full Body Strength Training</p>
+                    </div>
+                    <div class="card-workout">
+                        <img class="title" src="./images/strength3.png" width="320px" height="200px" alt="Your Image">
+                        <div class="overlay">
+                            <p>Unlock the power of dumbbell training in this comprehensive strength workout</p>
+                            <button onclick="strength3()">Watch Video</button>
+                        </div>
+                        <p class="video-title"> Strength Training with Dumbbells</p>
+                    </div>
+                    <div class="card-workout">
+                        <img class="title" src="./images/strength4.png" width="320px" height="200px" alt="Your Image">
+                        <div class="overlay">
+                            <p>Transform your physique without any equipment as you engage every muscle with dynamic
+                                bodyweight exercises, fostering full-body strength and functional fitness from head
+                                to toe."
+                            </p>
+                            <button onclick="strength4()">Watch Video</button>
+                        </div>
+                        <p class="video-title">Full Body Strength No Equipment</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="section2 section-workout">
+                <h2>Warm Up Training</h2>
+                <div class="videos">
+                    <div class="card-workout">
+                        <img class="title" src="./images/warmup1.jpg" width="320px" height="200px" alt="Your Image">
+                        <div class="overlay">
+                            <p>Maximize your fitness in just 30 minutes with this dynamic full-body strength
+                                workout. </p>
+                            <button onclick="warmup1()">Watch Video</button>
+                        </div>
+                        <p class="video-title">30 Minute Full Body Strength Workout </p>
+                    </div>
+                    <div class="card-workout">
+                        <img class="title" src="./images/warmup2.jpg" alt="Your Image" width="320px" height="200px">
+                        <div class="overlay">
+                            <p> Full-body strength workout, designed to build strength, endurance, and definition
+                                across all
+                                major muscle groups.</p>
+                            <button onclick="">Watch Video</button>
+                        </div>
+                        <p class="video-title">Full Body Strength Training</p>
+                    </div>
+                    <div class="card-workout">
+                        <img class="title" src="./images/warmup3.jpg" width="320px" height="200px" alt="Your Image">
+                        <div class="overlay">
+                            <p>Unlock the power of dumbbell training in this comprehensive strength workout</p>
+                            <button onclick="">Watch Video</button>
+                        </div>
+                        <p class="video-title"> Strength Training with Dumbbells</p>
+                    </div>
+                    <div class="card-workout">
+                        <img class="title" src="./images/warmup4.jpg" width="320px" height="200px" alt="Your Image">
+                        <div class="overlay">
+                            <p>Transform your physique without any equipment as you engage every muscle with dynamic
+                                bodyweight exercises, fostering full-body strength and functional fitness from head
+                                to toe."
+                            </p>
+                            <button onclick="">Watch Video</button>
+                        </div>
+                        <p class="video-title">Full Body Strength No Equipment</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="section3 section-workout ">
+                <h2>Mindfullness and Meditation</h2>
+                <div class="videos">
+                    <div class="card-workout">
+                        <img class="title" src="./images/meditation1.png" width="320px" height="200px" alt="Your Image">
+                        <div class="overlay">
+                            <p>Meditation is a practice that involves focused attention and mindfulness, promoting
+                                mental clarity, relaxation, and a heightened sense of awareness for overall
+                                well-being. </p>
+                            <button onclick="warmup1()">Watch Video</button>
+                        </div>
+                        <p class="title"> </p>
+                    </div>
+                    <div class="card-workout">
+                        <img class="title" src="./images/meditation4.png" alt="Your Image" width="320px" height="200px">
+                        <div class="overlay">
+                            <p>Meditation is a mindful practice involving focused attention and controlled breathing
+                                to enhance mental clarity and emotional balance. It promotes relaxation, reducing
+                                stress and fostering overall well-being. </p>
+                            <button onclick="">Watch Video</button>
+                        </div>
+                        <p class="title"></p>
+                    </div>
+                    <div class="card-workout">
+                        <img class="title" src="./images/meditation3.png" width="320px" height="200px" alt="Your Image">
+                        <div class="overlay">
+                            <p>Meditation is a practice that involves cultivating mindfulness and inner awareness,
+                                contributing to a calm mind and reduced stress.</p>
+                            <button onclick="">Watch Video</button>
+                        </div>
+                        <p class="title"></p>
+                    </div>
+                    <div class="card-workout">
+                        <img class="title" src="./images/meditation2.png" width="320px" height="200px" alt="Your Image">
+                        <div class="overlay">
+                            <p>Meditation is a contemplative practice fostering mental calmness and self-awareness
+                                through techniques like focused breathing. </p>
+                            <button onclick="">Watch Video</button>
+                        </div>
+                        <p class="title"></p>
+                    </div>
+                </div>
+            </div>
+                <div class="section4 section-workout">
+                    <h2>Nutrition and Diet</h2>
+                    <div class="videos">
+                        <div class="card-workout">
+                            <img class="title" src="./images/Nutrition1.jpg" width="320px" height="200px"
+                                alt="Your Image">
+                            <div class="overlay">
+                                <p>Fruit salad is a refreshing dish made by combining a variety of fresh fruits,
+                                    often chopped or sliced. It offers a delightful blend of natural flavors and
+                                    textures, making it a popular and healthy dessert or side dish.
+                                </p>
+                                <button onclick="nutrition1()">Watch Video</button>
+                            </div>
+                            <p class="title"> </p>
+                        </div>
+                        <div class="card-workout">
+                            <img class="title" src="./images/Nutrition2.jpg" alt="Your Image" width="320px"
+                                height="200px">
+                            <div class="overlay">
+                                <p>Soup offers various health benefits, as it is often rich in nutrients, vitamins,
+                                    and minerals from the ingredients used.</p>
+                                <button onclick="">Watch Video</button>
+                            </div>
+                            <p class="title"></p>
+                        </div>
+                        <div class="card-workout">
+                            <img class="title" src="./images/Nutrition3.jpg" width="320px" height="200px"
+                                alt="Your Image">
+                            <div class="overlay">
+                                <p>Vegetable salad offers a plethora of health benefits, providing essential
+                                    vitamins, minerals, and fiber that support overall well-being, digestion, and
+                                    immune function, while also promoting weight management and heart health.</p>
+                                <button onclick="">Watch Video</button>
+                            </div>
+                            <p class="title"></p>
+                        </div>
+                        <div class="card-workout">
+                            <img class="title" src="./images/Nutrition4.jpg" width="320px" height="200px"
+                                alt="Your Image">
+                            <div class="overlay">
+                                <p>ruit juice is a liquid extracted from fresh fruits, typically consumed for its
+                                    refreshing taste and nutritional benefits, providing a concentrated source of
+                                    vitamins and natural sugars.</p>
+                                <button onclick="">Watch Video</button>
+                            </div>
+                            <p class="title"></p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            <!-- </div> -->
+            <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+                AOS.init({
+                    offset: 300,
+                    duration: 2000,
+                    delay: 100
+                });
+            </script> -->
+
+            <script src="workout.js"></script>
+</body>

@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&family=Libre+Baskerville&family=Lora:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lora:ital,wght@1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@500&family=Libre+Baskerville&family=Lora:ital,wght@1,400;1,700&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.navbar{
+
+    background-color: rgb(11, 11, 40);
+    padding: 30px 0px;
+    transition: transform 0.5s ease-in-out;
+    width: 35vw;
+    height: 100vh;
+}
+.navbar li{
+    list-style: none;
+    padding: 25px;
+    /* font-size: 20px; */
+    font-size: 1rem;
+    font-weight: 700;
+  
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+.navbarGo{
+    position: absolute;
+    transform: translate(-220px,0px);
+}
+.ham{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+ 
+}
+.close{
+        position: absolute;
+        top: 10px;
+        left: 110px;
+   
+
+}
+header{
+    height: 50px;
+}
+
+.navheader{
+    background-color: rgb(11,11,40);
+    height: 60px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+.navheader li a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.navheader li{
+    list-style: none;
+    margin-right: 35px;
+    
+}
+.navheader ul{
+    display: flex;
+ 
+}
+.navheader ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: blueviolet;
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    transition: 0.5s;
+}
+.navheader ul li a:hover::after{
+    width: 100%;
+}
+.icons{
+    color: white;
+}
+@media(min-width:1466px) {
+
+    .icons,
+    .navbar {
+        display: none;
+    }
+
+
+}
+
+
+  section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+  }
+  
+  .section1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    margin-top: 90px;
+  }
+  
+  .card {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    /* transition: transform 2s ease-in-out 3s ; */
+  }
+  /* .allPrograms{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction: column;
+    } */
+  .program1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    
+  }
+  
+  .card1:hover .i1 {
+    height: 275px;
+    width: 275px;
+    cursor: pointer;
+    /* transform: scale(1.5); */
+  }
+  
+  .card2:hover .i2 {
+    height: 275px;
+    width: 275px;
+    cursor: pointer;
+    /* transform: translate(-100px); */
+
+  
+  }
+  
+  .card3:hover .i3 {
+    height: 275px;
+    width: 275px;
+    cursor: pointer;
+  
+  }
+  
+  .card4:hover .i4 {
+    height: 275px;
+    width: 275px;
+    cursor: pointer;
+  
+  }
+  
+  .card5:hover .i5 {
+    height: 275px;
+    width: 275px;
+    cursor: pointer;
+  
+  }
+  
+  .card6:hover .i6 {
+    height: 275px;
+    width: 275px;
+    cursor: pointer;
+  
+  }
+  
+  .card7:hover .i7 {
+    height: 275px;
+    width: 275px;
+    cursor: pointer;
+  
+  }
+  
+  .card8:hover .i8 {
+    height: 275px;
+    width: 275px;
+    cursor: pointer;
+  
+  }
+  
+  .card9:hover .i9 {
+    height: 275px;
+    width: 275px;
+    cursor: pointer;
+  
+  }
+  
+  .card1:hover .card {
+    opacity: 0.2;
+  }

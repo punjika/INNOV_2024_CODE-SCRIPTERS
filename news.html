@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Card Layout</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="navbar navbarGo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="workout.html">Workouts</a></li>
+                    <li><a href="challenges.html">Challenges</a></li>
+                    <li><a href="#">News/Trends</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="login.html" id="login" onclick="openLogin()">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+        <header>
+            <div class="navheader" id="navheader">
+                <div class="left">Healthify</div>
+                <div class="right">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="workout.html">Workouts</a></li>
+                        <li><a href="challenges.html">Challenges</a></li>
+                        <li><a href="#">News/Trends</a></li>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="login.html" id="login" onclick="openLogin()">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="newsSection">
+            <p>Fitness Routine</p>
+            <div id="news-container-1" class="news-card" >
+                
+            </div>
+            <p>Workout Updates</p>
+            <div id="news-container-2" data-aos="slide-right" class="news-card">
+               
+            </div>
+        </div>
+    </div>
+
+ 
+        <script src="news.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            offset: 300,
+            duration: 1000,
+            delay:500
+          });
+        </script>
+</body>
+</html>

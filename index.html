@@ -1,0 +1,282 @@
+<!DOCTYPE HTML >
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Workout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar navbarGo">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#workouts">Workouts</a></li>
+                    <li><a href="challenges.html">Challenges</a></li>
+                    <li><a href="#news">News/Trends</a></li>
+                    <li><a href="dashboard.html">Dashboard</a></li>
+                    <li><a href="login.html" id="login">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+        <header>
+            <div class="navheader" id="navheader">
+                <div class="left">Healthify</div>
+                <div class="right">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#workouts">Workouts</a></li>
+                        <li><a href="challenges.html">Challenges</a></li>
+                        <li><a href="#news">News/Trends</a></li>
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li><a href="login.html" id="login" >Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="icons">
+                <div class="ham"><svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor"
+                        class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd"
+                            d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                    </svg></div>
+
+                <div class="close"><svg xmlns="http://www.w3.org/2000/svg" width="1.75em" height="1.75em"
+                        fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z" />
+                    </svg></div>
+            </div>
+
+            <div class="homeContent" id="home">
+                <div class="homeText" data-aos="fade-up-left">
+                    <h2>NO GYM REQUIRED, JUST DEDICATION!</h2>
+                    <p>Why bother with a gym when all you need is dedication? Say goodbye to membership fees and hello
+                        to workouts designed just for you! Our personalized fitness routines make getting fit fun, right
+                        in the comfort of your own home. No more gym-fear, just a healthier, happier you!</p>
+
+                </div>
+                <div class="homeImg" data-aos="fade-up-right"><img src="./images/fitness_home-removebg-preview.png"
+                        alt=""></div>
+
+
+
+            </div>
+
+        </div>
+
+        <!-- <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close-login" onclick="closeModalLogin()">&times;</span>
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Login</h2>
+                    </div>
+                    <div class="card-body">
+                        <form id="loginForm">
+                            <label for="username">Username:</label>
+                            <input type="text" id="username" name="username" required>
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" name="password" required>
+                            <button type="submit">Login</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+
+        <div class="workoutSection" id="workouts">
+            <div class="container1">
+                <h1 id="work">Workout</h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="images/equipments.webp" alt="">
+                    </div>
+                    <div class="work">
+                        <img src="images/equipments.webp" alt="">
+                    </div>
+                    <div class="work">
+                        <img src="images/equipments.webp" alt="">
+                    </div>
+
+
+                </div>
+                <a href="workout.html" id="news-btn-achr"><div class="btn" id="redirectBtn">See More</div></a>
+            </div>
+
+        </div>
+
+
+
+<div class="newsSection" id="news">
+    <div class="news-card text-center" data-aos="fade-left">
+        <div class="card-header">
+            Featured
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Your Brain Doesn’t Want You to Exercise
+            </h5>
+            <p class="card-text">Your brain is wired to prefer rest and sedentary behavior, research shows.
+            </p>
+            <a href="https://time.com/6590020/why-its-so-hard-to-motivate-yourself-to-exercise/" class="btn btn-primary" target="_blank">Visit <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <div class="card-footer text-body-secondary">
+            2 days ago
+        </div>
+    </div>
+
+    <div class="news-card text-center" data-aos="fade-right">
+        <div class="card-header">
+            Featured
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">See inside the AI-powered fitness studio that's led by virtual trainers
+            </h5>
+            <p class="card-text">Lumin Fitness' gym uses AI to track people's movements and offers classes led by a virtual trainer, which gives real-time feedback to fitness fans.
+            </p>
+            <a href="https://www.businessinsider.in/tech/news/see-inside-the-ai-powered-fitness-studio-thataposs-led-by-virtual-trainers/slidelist/107602247.cms" class="btn btn-primary" target="_blank">Visit <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+        <div class="card-footer text-body-secondary">
+            3 days ago
+        </div>
+    </div>
+
+    <!-- <div class="news-card text-center" data-aos="fade-left">
+        <div class="card-header">
+            Featured
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+        <div class="card-footer text-body-secondary">
+            2 days ago
+        </div>
+    </div> -->
+
+    <!-- <div class="card text-center aos-animate" data-aos="fade-left" id="newsLastCard">
+                <div class="card-header">
+                  Featured
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Special title treatment</h5>
+                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+                <div class="card-footer text-body-secondary">
+                  2 days ago
+                </div>
+              </div> -->
+
+        </div>
+        <a href="news.html" id="news-btn-achr"><div class="btn" id="redirectBtn">See More</div></a>
+    </div>
+</div>
+
+<div class="footerSection">
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 mb-3">
+                    <h5>Get Started</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Workout Plans</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <h5>Explore</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home Workouts</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Fitness
+                                Articles</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Success
+                                Stories</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Nutrition
+                                Tips</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-3">
+                    <h5>Connect</h5>
+                    <ul class="nav flex-column">
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Join Our
+                                Community</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Events</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Testimonials</a>
+                        </li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Blog</a></li>
+                        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Privacy
+                                Policy</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 mb-3 color-black">
+                    <h5>Subscribe to our newsletter</h5>
+                    <p>Monthly digest of what's new and exciting from us.</p>
+                    <form>
+                        <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                            <label for="newsletter1" class="visually-hidden">Email address</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                            <button class="btn btn-primary" type="button">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top color-black"
+                id="footer-end">
+                <p>© 2024 CodeScripters, Inc. All rights reserved.</p>
+                <ul class="list-unstyled d-flex footer-icon-list">
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><i
+                                class="fa-brands fa-twitter footer-icons"></i></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><i
+                                class="fa-brands fa-instagram footer-icons"></i></a></li>
+                    <li class="ms-3"><a class="link-body-emphasis" href="#"><i
+                                class="fa-brands fa-whatsapp footer-icons"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+</div>
+
+</div>
+<script src="https://cdn.botpress.cloud/webchat/v1/inject.js"></script>
+<script src="https://mediafiles.botpress.cloud/d03c14a8-5250-403b-a866-b541b2e2ec15/webchat/config.js" defer></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init({
+        offset: 300,
+        duration: 1500
+    });
+</script>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
